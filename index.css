@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f3fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo del contenedor del menú */
+nav {
+    background-color: #e9d7f7;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilo de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de los elementos de la lista */
+ul li {
+    margin: 25px 0;
+}
+
+/* Estilo de los enlaces */
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #b19cd9;
+    padding: 15px 0;
+    border-radius: 50px;
+    width: 100%;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Efecto hover en los enlaces */
+ul li a:hover {
+    background-color: #d8bfd8;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
